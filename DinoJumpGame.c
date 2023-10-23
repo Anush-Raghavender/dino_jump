@@ -34,7 +34,7 @@ void setupGame()
     gotoxy(62, 2);
     printf("SCORE : ");
     gotoxy(1, 25);
-    for (int x = 0; x < 79; x++)
+    for (int x = 0; x < 89; x++)
         printf("o");
 }
 
@@ -95,7 +95,7 @@ void dinosaur(int* jump)
     }
     else
     {
-        printf("ooooooooooooooooo");
+        printf("oooooooooooooooo");
     }
     delay(speed);
 }
@@ -116,9 +116,9 @@ void obstacles(int *scr)
     }
 
     gotoxy(74 - x, 20);
-    printf("X    X ");
+    printf("X   X ");
     gotoxy(74 - x, 21);
-    printf("X    X ");
+    printf("X   X ");
     gotoxy(74 - x, 22);
     printf("XXXXX ");
     gotoxy(74 - x, 23);
